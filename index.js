@@ -1,7 +1,7 @@
 import  express from  'express';
 import cors from  'cors';
 import dotenv from 'dotenv';
-import connectDB from './Database/dbconfig.js';
+import connectDB from './Database/dbConfig.js';
 import studRouter from './Router/Student.router.js';
 import mentorRouter from './Router/Mentor.router.js';
 
